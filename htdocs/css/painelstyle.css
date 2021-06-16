@@ -1,0 +1,790 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height:50px;
+    background-color: #1E4957;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 23px;
+    color: white;
+    padding: 2%;
+}
+
+.navbar a:hover{
+    font-size: 23px;
+    color: #CCCCCC;
+}
+
+body{
+    background-image: url("../images/site/bg-top.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: white;
+    width:1280px;
+    height: 800px;
+    margin:30px auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.842);
+    border-radius: 8px;
+}
+
+.menu {
+    width: 1280px;
+    height:55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    background-color: #25262B;
+    border-radius: 7px 7px 0 0;
+}
+
+.menu a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.menu a:hover{
+    font-size: 20px;
+    background-color: #CCCCCC;
+    color: white;
+}
+
+.pmenu{
+    border-color: rgba(0, 0, 0, 0.295);
+    width: 25%;
+    height: 55px;
+    border-radius: 7px 7px 0 0;
+}
+
+
+.iniciop{
+    display: flex;
+    justify-content: left; 
+    padding: 20px;
+}
+
+.avatar{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.nomeuser{
+    justify-content: center; 
+}
+
+.nomeuser h1{
+    padding-left: 30px;
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.842);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nomeuser p{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.pinfo{
+    padding-left: 150px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.painel{
+    background-color: #D1ECF1; 
+}
+
+.dados{
+    float: left;
+    padding: 15px;
+    padding-top: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+.organdiv{
+    padding-left: 200px;
+}
+
+.inf{
+    width: 250px;
+    height: 60px;
+}
+
+.inf h5{
+    font-size: 17px;
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+.inf p{
+    border: 1px solid;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 8px;
+    background-color: #e5f0f1;
+    border-color: #e2eff1 #ecf5f7 #d4e7eb;
+}
+
+.inf a{
+    text-decoration: none;
+    color: rgb(82, 148, 41);
+    text-align: center;
+}
+
+/*  BOTÃO ALTERAR SENHA INICIO */
+.infs h5{
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+.btnpass{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: #1E4957;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btnpass:hover{
+    background-color: rgba(30, 73, 87, 0.8);
+}    
+/*  BOTÃO ALTERAR SENHA FIM */
+
+.botao{
+    width: 240px;
+    margin-top: 30px;
+}
+
+.botao p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+    background-color: #c56655; 
+	border-bottom: 5px solid #000000;
+	border-radius: 25px;
+
+}
+
+.botao p:hover{
+    color: #D1ECF1;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
+.botao a{
+    text-decoration: none;
+}
+
+
+.direito{
+    float: right;
+    margin-top: 5px;
+    margin-right: 25px;
+}
+
+.status{
+    width: 680px;
+    margin: 15px auto;
+}
+
+.infstatus h1{
+    font-weight: normal;
+    font-size: 25px;
+    background-color: #a5bdc2;
+    border-radius: 5px 0 0 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.onstatus{
+    font-size: 25px;
+    background-color: #a5bdc2;
+    border-radius: 0 5px 5px 0;
+
+    padding-right: 25px;
+}
+
+.onstatus h1{
+    font-weight: normal;
+    font-size: 25px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.boxlivre{
+    width: 800px;
+    height:200px;
+    margin-top: 100px;
+    float: left;
+    justify-content: left;
+    align-items: left;   
+    background-color: #a5bdc2;
+    border-radius: 12px ;
+}
+
+.boxlivre .notibox{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boxlivre .infobox{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.boxlivre .infobox2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inf1{
+    width: 250px;
+    height: 60px;
+}
+
+.inf input{
+    border: 1px solid;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 8px;
+    background-color: #e5f0f1;
+    border-color: #e2eff1 #ecf5f7 #d4e7eb;
+}
+.inf2 input{
+    border: 1px solid;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 8px;
+    background-color: #e5f0f1;
+    border-color: #e2eff1 #ecf5f7 #d4e7eb;
+}
+
+.inf2{
+    width: 300px;
+    height: 70px;
+}
+
+.inf h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: normal;  
+}
+
+.inf2 h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: normal;  
+}
+
+.enviarguild{
+    width: 300px;
+    height: 80px;
+    margin: 0 auto;
+    
+}
+
+.enviarguild input{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid;
+    cursor: pointer;
+    background-color: #25262B;
+    color: white;
+    font-size: 20px;
+}
+
+.enviarguild input:hover{
+    background-color: #3a3a3a;
+    letter-spacing: 0.5px;
+}
+
+.guildt{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.guildm{
+    color: black;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.donation{
+    width: 900px;
+    height: 440px;
+    margin: 30px auto;
+}
+
+.boxdoacao{
+    width: 900px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #25262B;
+    margin-top: 8px;
+}
+
+.boxdoacao:hover{
+    width: 900px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #3a3a3a;
+    margin-top: 8px;
+}
+
+.boxleft{
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.boxleft h1{
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin-left: 15px;
+    color: white;
+}
+
+.boxright{
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.boxright h3{
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin-right: 10px;
+    color: white;
+}
+
+.dh2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    font-weight: 100;
+}
+
+.boxright h2{
+    margin-right: 17px;
+    background-color:rgb(31, 133, 31);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+}
+
+.dh2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.dh2 a:hover{
+    color: #3a3a3a;
+}
+
+.botao3{
+    width: 260px;
+    margin: 14px auto;
+}
+
+/* + + + + + + + SUPORTE + + + + + + + */
+
+.suporte{
+    width: 100%;
+    max-width: 500px;
+}
+
+.form{
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+textarea{
+    height: 150px;
+}
+
+.fieldbtn{
+    width: 482px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid;
+    cursor: pointer;
+    background-color: #25262B;
+    color: white;
+    font-size: 20px;
+}
+
+.fieldbtn:hover{
+    background-color: #3a3a3a;
+    letter-spacing: 0.5px;
+}
+
+.boxsup{
+    width: 700px;
+    height:250px;
+    margin-top: -200px;
+    margin-left: 32px;
+    background-color: #a5bdc2;
+    border-radius: 12px ;
+}
+
+.infsuporte{
+    text-align: center;
+    margin-top: -400px;
+    padding-left: 40%;
+}
+
+.infsuporte h2{
+    right: 50%;
+    padding-top: 50px;
+    font-size: 30px;
+    color: rgb(20, 20, 20);
+}
+
+.infsuporte p{
+    color: black;
+    font-size: 18px;
+}
+
+
+/* + + + + + + + PAINEL ADMINISTRATIVO + + + + + + + */
+
+.divisao{
+    padding: 25px;
+    background-color: #e5f0f1;
+}
+
+.barradm h1{
+    font-size: 45px;
+    text-align: center;
+    color: #83a6ad;
+    border: 1px solid #000000;
+    font-family: 'Oswald', sans-serif;
+}
+
+.titulostatus{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #1E4957;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.formstatus{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.formstatus button{
+    margin-top: 10px;
+}
+
+.srvsel{
+    width: 250px;
+    border: 1px solid rgb(179, 179, 179);
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.down{
+    width: 350px;
+    border: 1px solid rgb(179, 179, 179);
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.don{
+    width: 200px;
+    border: 1px solid rgb(179, 179, 179);
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.btnadm{
+    width: 200px;
+    border: 2px solid rgb(214, 212, 212);
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #25262B;
+    color: white;
+    cursor: pointer;
+}
+
+.btnadm:hover{
+    background-color: #3a3a3a;
+    color: white;
+    transition: all 0.2s ease;
+    letter-spacing: 0.2px;
+}
+
+/* + + + + + + + REGISTRO DE PIN + + + + + + + */
+
+.regpin{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.pintable{
+    font-size: 28px;
+    text-align: center;
+    align-items: center;
+    background-color: #1E4957;
+    color: rgba(0, 0, 0, 0.842);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+}
+
+.pintable td{
+    color: white;
+}
+
+.pinbase{
+    text-align: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.842);
+}
+
+.pinbase2{
+    font-size: 22px;
+    text-align: center;
+    align-items: center;
+    background-color: #e5f0f1;
+    color: #1E4957;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pinbase2 a{
+    font-size: 22px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: red;
+}
+
+/* + + + + + + + PAINEL DE NOTÍCIAS + + + + + + + */
+
+.divisao2{
+    padding: 10px;
+    background-color: #e5f0f1;
+}
+
+.containeradm{
+    background-color: white;
+    width: 1280px;
+    height: 100%;
+    padding-bottom: 30px;
+    margin:30px auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.842);
+    border-radius: 8px;
+}
+
+.notitema{
+    width: 150px;
+    border: 1px solid rgb(179, 179, 179);
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.notitulo{
+    width: 300px;
+    border: 1px solid rgb(179, 179, 179);
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.notdescri{
+    width: 500px;
+    height: 80px;
+    border: 1px solid rgb(179, 179, 179);
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.notitext{
+    width: 95%;
+    height: 350px;
+    border: 1px solid rgb(179, 179, 179);
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.filenot{
+    padding: 5px;
+    font-size: 15px;
+}
+
+.btnnot{
+    width: 200px;
+    border: 2px solid rgb(214, 212, 212);
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #25262B;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnnot:hover{
+    background-color: #3a3a3a;
+    color: white;
+    transition: all 0.2s ease;
+    letter-spacing: 0.2px;
+}
+
+
+/* + + + + + ALTERAR SENHA + + + + + */
+
+.popup-wrapper{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.popup {
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 5% auto;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+}
+
+.popup-content h1{
+    font-size: 15px;
+    color: #1E4957;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.input-pass{
+    width: 250px;
+    height: 30px;
+    display: block;
+    margin-top: 5px;
+    border-radius: 7px;
+    font-size: 13px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.popup-submit{
+    width: 120px;
+    height: 35px;
+    background-color: #1E4957;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.popup-close{
+    width: 120px;
+    height: 35px;
+    background-color: #25262B;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    align-items: center;
+}
+
+.popup-submit:hover{
+    background-color: #1e4957c5;
+}
+
+.popup-close:hover{
+    background-color: #25262ba8;
+}
+
